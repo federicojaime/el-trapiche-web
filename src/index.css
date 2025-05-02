@@ -1,0 +1,5 @@
+/* src/styles/globals.css — LO PRIMERO del archivo ⬇︎ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
