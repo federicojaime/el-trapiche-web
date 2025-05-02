@@ -61,6 +61,9 @@ const Home = () => {
                     >
                         Descubrir El Trapiche
                     </Link>
+                    <div className="bg-blue-600 text-white text-3xl p-10 text-center">
+                        Tailwind está funcionando 🎉
+                    </div>
                     <Link
                         to="/como-llegar"
                         className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white border border-white/50 px-6 py-3 rounded-lg font-medium transition-colors"
