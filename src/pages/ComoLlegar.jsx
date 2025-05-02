@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Bus, Car, Calendar, AlertCircle, Info } from 'lucide-react';
+import { MapPin, Bus,Phone,Clock, Car, Calendar, AlertCircle, Info } from 'lucide-react';
 
 // Componentes
 import Hero from '../components/common/Hero';

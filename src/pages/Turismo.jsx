@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Camera, Compass, Utensils, Info } from 'lucide-react';
+import { MapPin, Car ,Bus , Camera, Compass, Utensils, Info } from 'lucide-react';
 
 // Componentes
 import Hero from '../components/common/Hero';

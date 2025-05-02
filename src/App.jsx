@@ -1,8 +1,27 @@
-export default function App() {
+// Componente principal de la aplicación
+// src/App.jsx
+
+import React from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Router from './Router';
+import './index.css'; // ✅ hace que Tailwind funcione
+
+// Crear cliente de React Query
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+      staleTime: 1000 * 60 * 5, // 5 minutos
+    },
+  },
+});
+
+function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-500 text-white p-20 text-center">
-      <h1 className="text-5xl font-bold mb-6">¿Tailwind está funcionando?</h1>
-      <p className="text-xl">Si ves fondo degradado y texto blanco, entonces sí 💡</p>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <Router />
+    </QueryClientProvider>
   );
 }
+
+export default App;

@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Search, Filter, Calendar as CalendarIcon } from 'lucide-react';
+import { Calendar, MapPin ,Search, Filter, Calendar as CalendarIcon } from 'lucide-react';
 
 // Componentes
 import Hero from '../components/common/Hero';
