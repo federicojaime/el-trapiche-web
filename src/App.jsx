@@ -1,10 +1,8 @@
-// Componente principal de la aplicación
 // src/App.jsx
-
 import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import Router from './Router';
-import './index.css'; // ✅ hace que Tailwind funcione
+import EnhancedRouter from './Router';
+import './index.css'; // Asegura que Tailwind funcione
 
 // Crear cliente de React Query
 const queryClient = new QueryClient({
@@ -19,7 +17,7 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Router />
+      <EnhancedRouter />
     </QueryClientProvider>
   );
 }

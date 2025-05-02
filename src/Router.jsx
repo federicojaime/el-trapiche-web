@@ -1,35 +1,38 @@
-// Configuración de rutas de la aplicación
-// src/Router.jsx
-
+// src/EnhancedRouter.jsx
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MainLayout from './layouts/MainLayout';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import EnhancedMainLayout from './layouts/MainLayout';
 
 // Páginas
-import Home from './pages/Home';
+import EnhancedHome from './pages/Home';
 import MunicipioTransparente from './pages/MunicipioTransparente';
 import VivirElTrapiche from './pages/VivirElTrapiche';
-import Turismo from './pages/Turismo';
-import Eventos from './pages/Eventos';
+import EnhancedTurismo from './pages/Turismo';
 import ComoLlegar from './pages/ComoLlegar';
 import Contacto from './pages/Contacto';
 import NotFound from './pages/NotFound';
 
-const Router = () => {
+const EnhancedRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainLayout><Home /></MainLayout>} />
-        <Route path="/municipio-transparente" element={<MainLayout><MunicipioTransparente /></MainLayout>} />
-        <Route path="/vivir-el-trapiche" element={<MainLayout><VivirElTrapiche /></MainLayout>} />
-        <Route path="/turismo" element={<MainLayout><Turismo /></MainLayout>} />
-        <Route path="/eventos" element={<MainLayout><Eventos /></MainLayout>} />
-        <Route path="/como-llegar" element={<MainLayout><ComoLlegar /></MainLayout>} />
-        <Route path="/contacto" element={<MainLayout><Contacto /></MainLayout>} />
-        <Route path="*" element={<MainLayout><NotFound /></MainLayout>} />
+        <Route path="/" element={<EnhancedMainLayout><EnhancedHome /></EnhancedMainLayout>} />
+        <Route path="/municipio-transparente" element={<EnhancedMainLayout><MunicipioTransparente /></EnhancedMainLayout>} />
+        <Route path="/vivir-el-trapiche" element={<EnhancedMainLayout><VivirElTrapiche /></EnhancedMainLayout>} />
+        
+        {/* Página de turismo que redirecciona al sitio externo */}
+        <Route path="/turismo" element={<EnhancedMainLayout><EnhancedTurismo /></EnhancedMainLayout>} />
+        
+        {/* Eliminar la ruta /eventos y redirigir a la home */}
+        <Route path="/eventos" element={<Navigate to="/" replace />} />
+        <Route path="/eventos/:id" element={<Navigate to="/" replace />} />
+        
+        <Route path="/como-llegar" element={<EnhancedMainLayout><ComoLlegar /></EnhancedMainLayout>} />
+        <Route path="/contacto" element={<EnhancedMainLayout><Contacto /></EnhancedMainLayout>} />
+        <Route path="*" element={<EnhancedMainLayout><NotFound /></EnhancedMainLayout>} />
       </Routes>
     </BrowserRouter>
   );
 };
 
-export default Router;
+export default EnhancedRouter;
