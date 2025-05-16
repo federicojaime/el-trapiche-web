@@ -279,13 +279,12 @@ const TramitesOnline = ({ busqueda = '' }) => {
                                     </div>
                                     <div className="mt-4 pt-4 border-t border-gray-100 flex justify-end">
                                         <a
-                                            href={t.url}
+                                            //href={t.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium"
                                         >
-                                            Iniciar trámite
-                                            <ExternalLink size={16} />
+                                            Próximamente                                            <ExternalLink size={16} />
                                         </a>
                                     </div>
                                 </div>

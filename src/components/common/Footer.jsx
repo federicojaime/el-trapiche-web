@@ -9,7 +9,8 @@ const EnhancedFooter = () => {
   const [subscribed, setSubscribed] = useState(false);
 
   // Logo path
-  const municipalLogo = '/assets/images/logo-municipalidad-blanco.svg';
+  const municipalLogo = 'assets/images/logo-blanco.png';
+  const intendenteLogo = 'assets/images/intendente-logo.png';
 
   const handleSubscribe = (e) => {
     e.preventDefault();
@@ -46,13 +47,11 @@ const EnhancedFooter = () => {
           {/* Top section with logo and social media */}
           <div className="flex flex-col md:flex-row justify-between items-center mb-12 border-b border-blue-800 pb-6">
             <div className="flex items-center mb-6 md:mb-0">
-              <img src={municipalLogo} alt="Municipalidad de El Trapiche" className="h-16 md:h-20" />
-              <div className="ml-4">
-                <h2 className="text-2xl font-bold leading-tight">Municipalidad</h2>
-                <h3 className="text-lg text-blue-200">El Trapiche</h3>
-              </div>
+              <img src={municipalLogo} alt="Municipalidad de El Trapiche" className="h-22 md:h-22" />
             </div>
-
+            <div className="flex items-center mb-6 md:mb-0">
+              <img src={intendenteLogo} alt="Municipalidad de El Trapiche" className="h-22 md:h-22" />
+            </div>
             <div>
               <div className="text-sm text-blue-200 mb-2 text-center md:text-right">Seguinos en redes sociales</div>
               <div className="flex space-x-3">

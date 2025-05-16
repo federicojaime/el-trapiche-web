@@ -84,7 +84,7 @@ const Eventos = () => {
         <div className="min-h-screen bg-gray-50">
             {/* Hero con imagen de fondo */}
             <Hero
-                imageSrc="/assets/images/eventos/fiesta-rios.jpg"
+                imageSrc="assets/images/eventos/fiesta-rios.jpg"
                 title="Agenda de Eventos"
                 subtitle="Descubre todas las actividades y festividades de El Trapiche"
                 height="medium"
@@ -212,7 +212,7 @@ const Eventos = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="/assets/images/eventos/fiesta-rios.jpg"
+                                src="assets/images/eventos/fiesta-rios.jpg"
                                 alt="Fiesta Provincial de los Ríos"
                                 className="w-full h-48 object-cover"
                             />
@@ -239,7 +239,7 @@ const Eventos = () => {
 
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="/assets/images/eventos/festival-pescador.jpg"
+                                src="assets/images/eventos/festival-pescador.jpg"
                                 alt="Festival del Pescador"
                                 className="w-full h-48 object-cover"
                             />
@@ -266,7 +266,7 @@ const Eventos = () => {
 
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="/assets/images/eventos/semana-estudiante.jpg"
+                                src="assets/images/eventos/semana-estudiante.jpg"
                                 alt="Semana del Estudiante"
                                 className="w-full h-48 object-cover"
                             />

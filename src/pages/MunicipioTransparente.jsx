@@ -36,7 +36,7 @@ const MunicipioTransparente = () => {
         <div className="min-h-screen bg-gray-50">
             {/* Hero con imagen de fondo */}
             <Hero
-                imageSrc="/assets/images/municipio/edificio-municipal.jpg"
+                imageSrc="assets/images/municipalidad.jpg"
                 title="Municipio Transparente"
                 subtitle="Accedé a información pública, documentos oficiales y trámites digitales"
                 height="medium"

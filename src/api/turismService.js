@@ -15,7 +15,7 @@ export const obtenerAtraccionesPrincipales = async (limite = 4) => {
             {
                 id: 1,
                 nombre: 'Embalse La Florida',
-                imagen: '/assets/images/turismo/embalse-florida.jpg',
+                imagen: 'assets/images/paisaje.jpg',
                 descripcionCorta: 'Lago de 6 km ideal para deportes náuticos, pesca y recreación.',
                 categoria: 'embalses',
                 destacado: true
@@ -23,7 +23,7 @@ export const obtenerAtraccionesPrincipales = async (limite = 4) => {
             {
                 id: 2,
                 nombre: 'Río Trapiche y Costanera',
-                imagen: '/assets/images/turismo/rio-trapiche.jpg',
+                imagen: 'assets/images/paisaje.jpg',
                 descripcionCorta: 'Balneario natural con senderos y puentes panorámicos.',
                 categoria: 'balnearios',
                 destacado: true
@@ -31,7 +31,7 @@ export const obtenerAtraccionesPrincipales = async (limite = 4) => {
             {
                 id: 3,
                 nombre: 'Dique Esteban Agüero',
-                imagen: '/assets/images/turismo/dique-aguero.jpg',
+                imagen: 'assets/images/paisaje.jpg',
                 descripcionCorta: 'A 5 km al norte, ofrece pesca y un perilago escénico.',
                 categoria: 'embalses',
                 destacado: false
@@ -39,7 +39,7 @@ export const obtenerAtraccionesPrincipales = async (limite = 4) => {
             {
                 id: 4,
                 nombre: 'Reserva Florofaunística',
-                imagen: '/assets/images/turismo/reserva-flora.jpg',
+                imagen: 'assets/images/paisaje.jpg',
                 descripcionCorta: 'Área protegida para avistaje de flora y fauna serrana.',
                 categoria: 'avistaje',
                 destacado: false
@@ -47,7 +47,7 @@ export const obtenerAtraccionesPrincipales = async (limite = 4) => {
             {
                 id: 5,
                 nombre: 'Circuito Sierras-Diques',
-                imagen: '/assets/images/turismo/circuito-sierras.jpg',
+                imagen: 'assets/images/paisaje.jpg',
                 descripcionCorta: 'Rutas escénicas que unen El Volcán, Pancanta y La Carolina.',
                 categoria: 'miradores',
                 destacado: false
@@ -83,7 +83,7 @@ export const obtenerAtraccionPorId = async (id) => {
             {
                 id: 1,
                 nombre: 'Embalse La Florida',
-                imagen: '/assets/images/turismo/embalse-florida.jpg',
+                imagen: 'assets/images/turismo/embalse-florida.jpg',
                 descripcionCorta: 'Lago de 6 km ideal para deportes náuticos, pesca y recreación.',
                 descripcionCompleta: 'El Embalse La Florida, ubicado a pocos kilómetros de El Trapiche, es un enorme lago artificial de 6 km de longitud que constituye uno de los principales atractivos turísticos de la región. Sus aguas cristalinas son ideales para la práctica de deportes náuticos como windsurf, kayak, jet ski y navegación a vela. La pesca deportiva es otra actividad destacada, con ejemplares de pejerrey, carpa y trucha. El perilago cuenta con varios miradores panorámicos, áreas de camping y servicios gastronómicos. La Estación de Piscicultura La Florida, ubicada en sus cercanías, es un centro de reproducción de especies acuáticas que puede ser visitado con reserva previa.',
                 categoria: 'embalses',
@@ -102,9 +102,9 @@ export const obtenerAtraccionPorId = async (id) => {
                 horarios: 'Acceso libre las 24 horas',
                 ubicacion: 'A 5 km al sur de El Trapiche por RP 9',
                 galeria: [
-                    '/assets/images/turismo/embalse-florida-1.jpg',
-                    '/assets/images/turismo/embalse-florida-2.jpg',
-                    '/assets/images/turismo/embalse-florida-3.jpg'
+                    'assets/images/turismo/embalse-florida-1.jpg',
+                    'assets/images/turismo/embalse-florida-2.jpg',
+                    'assets/images/turismo/embalse-florida-3.jpg'
                 ]
             },
             // Otras atracciones...

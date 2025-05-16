@@ -70,7 +70,7 @@ const Contacto = () => {
         <div className="min-h-screen bg-gray-50">
             {/* Hero con imagen de fondo */}
             <Hero
-                imageSrc="/assets/images/contacto/municipalidad-frente.jpg"
+                imageSrc="assets/images/intendente2.jpg"
                 title="Contacto"
                 subtitle="Estamos para atenderte y escuchar tus consultas"
                 height="small"

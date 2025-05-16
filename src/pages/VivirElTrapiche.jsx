@@ -42,9 +42,9 @@ const VivirElTrapiche = () => {
         <div className="min-h-screen bg-gray-50">
             {/* Hero con imagen de fondo */}
             <Hero
-                imageSrc="/assets/images/vivir/plaza-central.jpg"
+                imageSrc="assets/images/clima.jpg"
                 title="Vivir en El Trapiche"
-                subtitle="Descubre los servicios y la calidad de vida de nuestra localidad"
+                subtitle="Descubrí los servicios y la calidad de vida de nuestra localidad"
                 height="medium"
             />
 
@@ -118,7 +118,7 @@ const VivirElTrapiche = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                                     <img
-                                        src="/assets/images/vivir/escuela-primaria.jpg"
+                                        src="assets/images/escuela.jpg"
                                         alt="Centro Educativo N.º 5 Sen. Alfredo Bertín"
                                         className="w-full h-48 object-cover"
                                     />
@@ -139,7 +139,7 @@ const VivirElTrapiche = () => {
 
                                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                                     <img
-                                        src="/assets/images/vivir/escuela-adultos.jpg"
+                                        src="assets/images/escuelaadulta.jpg"
                                         alt="EPDA N.º 15"
                                         className="w-full h-48 object-cover"
                                     />
@@ -206,7 +206,7 @@ const VivirElTrapiche = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                                     <img
-                                        src="/assets/images/vivir/hospital.jpg"
+                                        src="assets/images/hospital.jpg"
                                         alt="Hospital Regional Dr. René Favaloro"
                                         className="w-full h-48 object-cover"
                                     />
@@ -238,7 +238,7 @@ const VivirElTrapiche = () => {
 
                                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                                     <img
-                                        src="/assets/images/vivir/caps.jpg"
+                                        src="assets/images/caps.jpg"
                                         alt="CAPS El Trapiche"
                                         className="w-full h-48 object-cover"
                                     />
@@ -491,7 +491,7 @@ const VivirElTrapiche = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                                     <img
-                                        src="/assets/images/vivir/reserva-natural.jpg"
+                                        src="assets/images/reserva.jpg"
                                         alt="Reserva Florofaunística"
                                         className="w-full h-48 object-cover"
                                     />
@@ -512,7 +512,7 @@ const VivirElTrapiche = () => {
                                 </div>
                                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                                     <img
-                                        src="/assets/images/vivir/reciclaje.jpg"
+                                        src="assets/images/reciclado.jpg"
                                         alt="Programa de Reciclaje Municipal"
                                         className="w-full h-48 object-cover"
                                     />

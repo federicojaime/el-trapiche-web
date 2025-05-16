@@ -47,7 +47,7 @@ const ComoLlegar = () => {
         <div className="min-h-screen bg-gray-50">
             {/* Hero con imagen de fondo */}
             <Hero
-                imageSrc="/assets/images/como-llegar/ruta-el-trapiche.jpg"
+                imageSrc="assets/images/ruta.jpg"
                 title="Cómo Llegar a El Trapiche"
                 subtitle="Información sobre rutas, transportes y accesos a nuestra localidad"
                 height="medium"

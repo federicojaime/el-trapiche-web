@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 
 // Import images - mejor gestión de imágenes
 const heroImages = {
-  home: '/assets/images/el-trapiche-vista.jpg',
-  tourism: '/assets/images/turismo/paisaje-el-trapiche.jpg',
-  contact: '/assets/images/contacto/municipalidad-frente.jpg',
-  howToGet: '/assets/images/como-llegar/ruta-el-trapiche.jpg',
-  municipality: '/assets/images/municipio/edificio-municipal.jpg',
-  living: '/assets/images/vivir/plaza-central.jpg'
+  home: '..assets/images/el-trapiche-vista.jpg',
+  tourism: 'assets/images/turismo/paisaje-el-trapiche.jpg',
+  contact: 'assets/images/contacto/municipalidad-frente.jpg',
+  howToGet: 'assets/images/como-llegar/ruta-el-trapiche.jpg',
+  municipality: 'assets/images/municipio/edificio-municipal.jpg',
+  living: 'assets/images/vivir/plaza-central.jpg'
 };
 
 const EnhancedHero = ({ 

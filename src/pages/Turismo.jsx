@@ -5,7 +5,7 @@ import { MapPin, ExternalLink, Compass, Hotel, Utensils, Camera } from 'lucide-r
 import EnhancedHero from '../components/common/Hero';
 
 // Imagen para el Hero
-const heroImage = '/assets/images/turismo/paisaje-el-trapiche.jpg';
+const heroImage = 'assets/images/turismo/paisaje-el-trapiche.jpg';
 
 const EnhancedTurismo = () => {
   // Redireccionar automáticamente después de 5 segundos

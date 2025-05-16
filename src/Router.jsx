@@ -14,7 +14,7 @@ import NotFound from './pages/NotFound';
 
 const EnhancedRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/trapiche-muni/">
       <Routes>
         <Route path="/" element={<EnhancedMainLayout><EnhancedHome /></EnhancedMainLayout>} />
         <Route path="/municipio-transparente" element={<EnhancedMainLayout><MunicipioTransparente /></EnhancedMainLayout>} />

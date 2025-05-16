@@ -21,7 +21,7 @@ const AtraccionCard = ({
             >
                 {/* Imagen de fondo */}
                 <img
-                    src={imagen || "/assets/images/atraccion-default.jpg"}
+                    src={imagen || "assets/images/atraccion-default.jpg"}
                     alt={nombre}
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                     style={{ minHeight: '240px' }}

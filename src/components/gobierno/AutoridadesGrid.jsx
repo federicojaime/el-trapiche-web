@@ -17,17 +17,17 @@ const AutoridadesGrid = ({ busqueda = '' }) => {
                 nombre: 'Ricardo Olivera Aguirre',
                 cargo: 'Intendente Municipal',
                 partido: 'Avanzar',
-                foto: '/assets/images/autoridades/intendente.jpg',
+                foto: 'assets/images/intendente.jpg',
                 email: 'intendente@eltrapiche.gob.ar',
                 telefono: '(02652) 493 025 Int. 101',
                 bio: 'Intendente de El Trapiche desde 2021. Licenciado en Administración Pública con experiencia en gestión municipal.'
-            },
+            }/*,
             {
                 id: 2,
                 nombre: 'Carolina Calderón',
                 cargo: 'Presidente del Concejo Deliberante',
                 partido: 'Avanzar',
-                foto: '/assets/images/autoridades/presidente-concejo.jpg',
+                foto: 'assets/images/autoridades/presidente-concejo.jpg',
                 email: 'concejo@eltrapiche.gob.ar',
                 telefono: '(02652) 493 025 Int. 201',
                 bio: 'Presidente del Concejo Deliberante desde 2023. Abogada especializada en derecho administrativo.'
@@ -37,7 +37,7 @@ const AutoridadesGrid = ({ busqueda = '' }) => {
                 nombre: 'Damián Cirilo',
                 cargo: 'Concejal',
                 partido: 'Juntos',
-                foto: '/assets/images/autoridades/concejal-1.jpg',
+                foto: 'assets/images/autoridades/concejal-1.jpg',
                 email: 'dcirilo@eltrapiche.gob.ar',
                 telefono: '(02652) 493 025 Int. 202',
                 bio: 'Concejal desde 2021. Emprendedor con foco en desarrollo turístico y sustentable.'
@@ -47,7 +47,7 @@ const AutoridadesGrid = ({ busqueda = '' }) => {
                 nombre: 'Estela Ojeda',
                 cargo: 'Concejal',
                 partido: 'PJ',
-                foto: '/assets/images/autoridades/concejal-2.jpg',
+                foto: 'assets/images/autoridades/concejal-2.jpg',
                 email: 'eojeda@eltrapiche.gob.ar',
                 telefono: '(02652) 493 025 Int. 203',
                 bio: 'Concejal desde 2019. Docente con amplia trayectoria en el ámbito educativo local.'
@@ -57,7 +57,7 @@ const AutoridadesGrid = ({ busqueda = '' }) => {
                 nombre: 'Martín Gómez',
                 cargo: 'Secretario de Obras Públicas',
                 partido: 'Avanzar',
-                foto: '/assets/images/autoridades/secretario-obras.jpg',
+                foto: 'assets/images/autoridades/secretario-obras.jpg',
                 email: 'obraspublicas@eltrapiche.gob.ar',
                 telefono: '(02652) 493 025 Int. 301',
                 bio: 'Ingeniero civil con 15 años de experiencia en infraestructura pública.'
@@ -67,11 +67,11 @@ const AutoridadesGrid = ({ busqueda = '' }) => {
                 nombre: 'Lucía Fernández',
                 cargo: 'Secretaria de Turismo',
                 partido: 'Avanzar',
-                foto: '/assets/images/autoridades/secretaria-turismo.jpg',
+                foto: 'assets/images/autoridades/secretaria-turismo.jpg',
                 email: 'turismo@eltrapiche.gob.ar',
                 telefono: '(02652) 493 025 Int. 401',
                 bio: 'Licenciada en Turismo. Gestiona las iniciativas turísticas desde 2021.'
-            }
+            }*/
         ];
 
         setAutoridades(autoridadesEjemplo);
@@ -124,14 +124,14 @@ const AutoridadesGrid = ({ busqueda = '' }) => {
                     >
                         <div className="relative h-64">
                             <img
-                                src={autoridad.foto || '/assets/images/autoridades/default.jpg'}
+                                src={autoridad.foto || 'assets/images/autoridades/default.jpg'}
                                 alt={`${autoridad.nombre} - ${autoridad.cargo}`}
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                                <div className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full mb-2">
+                                {/* <div className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full mb-2">
                                     {autoridad.partido}
-                                </div>
+                                </div> */}
                                 <h3 className="text-white text-xl font-bold">{autoridad.nombre}</h3>
                                 <p className="text-white/90">{autoridad.cargo}</p>
                             </div>

@@ -22,56 +22,56 @@ const GaleriaFotos = () => {
   const fotos = [
     {
       id: 1,
-      src: '/assets/images/turismo/embalse-florida-1.jpg',
+      src: 'assets/images/turismo/embalse-florida-1.jpg',
       alt: 'Vista panorámica del Embalse La Florida',
       categoria: 'embalses',
       descripcion: 'Vista panorámica del Embalse La Florida desde el mirador norte, rodeado de sierras.'
     },
     {
       id: 2,
-      src: '/assets/images/turismo/rio-trapiche-1.jpg',
+      src: 'assets/images/turismo/rio-trapiche-1.jpg',
       alt: 'Río Trapiche',
       categoria: 'balnearios',
       descripcion: 'El Río Trapiche en su paso por la localidad, con sus aguas cristalinas y áreas para bañistas.'
     },
     {
       id: 3,
-      src: '/assets/images/turismo/mirador-1.jpg',
+      src: 'assets/images/turismo/mirador-1.jpg',
       alt: 'Mirador Cerro de Oro',
       categoria: 'miradores',
       descripcion: 'Vista desde el Mirador Cerro de Oro, uno de los puntos más altos de la zona con vistas de 360°.'
     },
     {
       id: 4,
-      src: '/assets/images/eventos/fiesta-rios-1.jpg',
+      src: 'assets/images/eventos/fiesta-rios-1.jpg',
       alt: 'Fiesta Provincial de los Ríos',
       categoria: 'eventos',
       descripcion: 'Celebración de la Fiesta Provincial de los Ríos con espectáculos musicales en vivo.'
     },
     {
       id: 5,
-      src: '/assets/images/turismo/embalse-florida-2.jpg',
+      src: 'assets/images/turismo/embalse-florida-2.jpg',
       alt: 'Actividades náuticas en el Embalse',
       categoria: 'embalses',
       descripcion: 'Deportes náuticos y actividades recreativas en las aguas del Embalse La Florida.'
     },
     {
       id: 6,
-      src: '/assets/images/turismo/rio-trapiche-2.jpg',
+      src: 'assets/images/turismo/rio-trapiche-2.jpg',
       alt: 'Balneario natural',
       categoria: 'balnearios',
       descripcion: 'Área de balneario natural en el Río Trapiche, popular en la temporada estival.'
     },
     {
       id: 7,
-      src: '/assets/images/turismo/mirador-2.jpg',
+      src: 'assets/images/turismo/mirador-2.jpg',
       alt: 'Sendero hacia el mirador',
       categoria: 'miradores',
       descripcion: 'Sendero de trekking que conduce hacia los miradores panorámicos de las sierras.'
     },
     {
       id: 8,
-      src: '/assets/images/eventos/festival-pescador-1.jpg',
+      src: 'assets/images/eventos/festival-pescador-1.jpg',
       alt: 'Festival del Pescador',
       categoria: 'eventos',
       descripcion: 'Concurso de pesca durante el tradicional Festival del Pescador en el Embalse La Florida.'

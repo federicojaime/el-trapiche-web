@@ -105,7 +105,7 @@ const MapaInteractivo = ({ puntos = [], categoriaInicial = 'todos' }) => {
                         <>
                             {/* Aquí iría el mapa real en producción */}
                             <img
-                                src="/assets/images/mapa-el-trapiche.jpg"
+                                src="assets/images/mapa-el-trapiche.jpg"
                                 alt="Mapa de El Trapiche"
                                 className="w-full h-full object-cover opacity-50"
                             />

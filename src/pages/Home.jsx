@@ -13,8 +13,8 @@ import { obtenerClimaActual } from '../api/climaService';
 import { obtenerAtraccionesPrincipales } from '../api/turismService';
 
 // Assets
-const heroImage = '/assets/images/hero-autumn.jpg';
-const heroVideo = '/assets/videos/rio-trapiche-aereo.mp4';
+const heroImage = 'assets/images/hero-autumn.jpg';
+const heroVideo = 'assets/videos/rio-trapiche-aereo.mp4';
 
 // Service cards data
 const serviciosCards = [
@@ -310,7 +310,7 @@ const EnhancedHome = () => {
                   className="relative overflow-hidden rounded-lg group h-64"
                 >
                   <img
-                    src={atraccion.imagen || "/assets/images/atraccion-default.jpg"}
+                    src={atraccion.imagen || "assets/images/atraccion-default.jpg"}
                     alt={atraccion.nombre}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

@@ -40,7 +40,7 @@ const EventoCard = ({
       <div className="relative">
         {/* Imagen del evento */}
         <img 
-          src={imagen || '/assets/images/evento-default.jpg'} 
+          src={imagen || 'assets/images/evento-default.jpg'} 
           alt={titulo} 
           className="w-full h-48 object-cover"
         />
